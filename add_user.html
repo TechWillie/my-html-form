@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The add user form</title>
+    </head>
+    <body>
+        <h1>This is the form to add a user</h1>
+        <form>
+            <fieldset>
+                <legend>Add user</legend>
+                <div>
+                    <label class="firstName ">First name:</label>
+                    <input type="text" for="firstName">
+                </div>
+                <div>
+                    <label class="lastName">Last Name:</label>
+                    <input type="text" for="lastName">
+                </div>
+                <div>
+                    <label class="emailAddress">Email Address</label>
+                    <input type="text" for="emailAddress">
+                </div>
+                <div>
+                    <label class="userStatus">User status</label>
+                    <select for="userStatus" name="user_status">
+                        <option value="student">Student</option>
+                        <option value="instructor">Instructor</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+        <div>
+            <p>Choose your favorite programming language:</p>
+        </div>
+        <div>
+            <input type="radio">HTML
+            <input type="radio">Javascript
+            <input type="radio">CSS
+        </div>
+        <div>
+            <label class="comMit">Commits:</label>
+            <textarea id="comMit" name="commits:"></textarea>
+        </div>
+        <div>
+            <label class="theDate">Todays date:</label>
+            <input id="theDate" type="date" name="todays_date">
+        </div>
+        <div>
+            <label class="newsLetter">Sign up for newsletter:</label>
+            <input type="checkbox" id="newsLetter">
+        </div>
+        <div>
+            <label class="termsCond">Aggree to Terms and Conditions:</label>
+            <input type="checkbox" id="termsCond">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        <div>
+            <input type="radio">
+        </div>
+    </body>
+</html>
